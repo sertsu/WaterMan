@@ -496,6 +496,13 @@ public class MainActivity extends AppCompatActivity {
                             stateConvector = Integer.parseInt(separated[22]);
                         }
 
+
+
+                        
+                        //for test
+
+
+
                         irrigatingManualButton.setChecked(nowManualIrrigation == 1); //выставляем на кнопке ВКЛ
                         irrigationValve1.setChecked(false);
                         irrigationValve2.setChecked(false);
