@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">WaterMan</string>
+    <string name="irrigation">Полив</string>
+    <string name="air">\n\nВоздух:\n(макс)\ </string>
+    <string name="tC">\u00B0C</string>
+    <string name="pool">Бассейн</string>
+    <string name="sauna">Баня</string>
+
+
+    <string name="regulator_temp_control_sauna">регулятор контроля температуры</string>
+    <string name="point_detect_temp_floor">температура пола (точки)</string>
+    <string name="update">обновить</string>
+    <string name="backward">назад</string>
+    <string name="outdoor">снаружи</string>
+    <string name="restroom">комната отдыха</string>
+    <string name="vestibule">тамбур</string>
+    <string name="bathroom">санузел</string>
+    <string name="steamroom">парная</string>
+    <string name="temp_current_sauna">текущая температура</string>
+
+
+    <string name="temp_current_water_pool">текущая t°C\nводы бассейна </string>
+    <string name="temp_wish_water_pool">желаемая t°C\nводы бассейна: </string>
+    <string name="pool_heating_off">ПОДОГРЕВ БАССЕЙНА ОТКЛЮЧЕН</string>
+    <string name="pool_heating_on">ВКЛЮЧЕН ПОДОГРЕВ БАССЕЙНА</string>
+    <string name="pool_is_not_to_be_added">БАССЕЙН НЕ ДОЛИВАЕТСЯ</string>
+    <string name="added_to_the_pool">ДОЛИВАЕТСЯ БАССЕЙН</string>
+
+
+    <string name="last_request">посл. запрос</string>
+    <string name="max_temp">макс. t°</string>
+    <string name="period_weather_request">период запроса погоды (мин):</string>
+    <string name="start_time_of_watering">время начала полива</string>
+    <string name="watering_time_for_one_zone">время полива одной зоны (мин):</string>
+    <string name="valve_condition">состояние клапанов</string>
+    <string name="manual_irrigation_off">РУЧНОЙ ПОЛИВ\nвыключен</string>
+    <string name="manual_irrigation_on">РУЧНОЙ ПОЛИВ\nвключен</string>
+    <string name="autowatering_allowed">Автополив разрешён</string>
+    <string name="autowatering_disallowed">Автополив запрещён</string>
+
+
+    <string name="everything">все</string>
+    <string name="t_00">00</string>
+    <string name="first">1й</string>
+    <string name="second">2й</string>
+    <string name="third">3й</string>
+    <string name="fourth">4й</string>
+
+    <string-array name="degrPool">
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+    </string-array>
+</resources>
