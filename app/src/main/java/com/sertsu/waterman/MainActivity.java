@@ -1,4 +1,3 @@
-
 package com.sertsu.waterman;
 
 import android.annotation.SuppressLint;
@@ -495,13 +494,6 @@ public class MainActivity extends AppCompatActivity {
                         if (separated.length > 23) {
                             stateConvector = Integer.parseInt(separated[22]);
                         }
-
-
-
-                        
-                        //for test
-
-
 
                         irrigatingManualButton.setChecked(nowManualIrrigation == 1); //выставляем на кнопке ВКЛ
                         irrigationValve1.setChecked(false);
