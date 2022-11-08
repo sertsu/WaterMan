@@ -562,18 +562,26 @@ public class MainActivity extends AppCompatActivity {
                 saunaScreen.setVisibility(View.GONE);
                 buttonRefresh.setVisibility(View.GONE);
                 buttonBack.setVisibility(View.GONE);
-                if (error.networkResponse.statusCode == 403) {
+                try {
+
+                    if (error.networkResponse.statusCode == 403) {
+                        myAwesomeSnackbar = Snackbar.make(
+                                findViewById(R.id.rootLayout),
+                                "Попробуйте ещё раз.    ",
+                                Snackbar.LENGTH_SHORT
+                        );
+                    } else {
+                        myAwesomeSnackbar = Snackbar.make(
+                                findViewById(R.id.rootLayout),
+                                "Нет связи с контроллером.",
+                                Snackbar.LENGTH_SHORT
+                        );
+                    }
+                } catch (Exception e) {
                     myAwesomeSnackbar = Snackbar.make(
                             findViewById(R.id.rootLayout),
-                            "попробуйте ещё раз",
-                            Snackbar.LENGTH_SHORT
-                    );
-                } else {
-                    myAwesomeSnackbar = Snackbar.make(
-                            findViewById(R.id.rootLayout),
-                            "нет связи с контроллером",
-                            Snackbar.LENGTH_SHORT
-                    );
+                            "Что-то со связью или Интернета нет.",
+                            Snackbar.LENGTH_SHORT);
                 }
                 View sbView = myAwesomeSnackbar.getView();
                 TextView textView = sbView.findViewById(com.google.android.material.R.id.snackbar_text);
